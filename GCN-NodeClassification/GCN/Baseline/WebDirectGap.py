@@ -17,7 +17,7 @@
 
 import argparse
 parser = argparse.ArgumentParser(description='Run BraessGCNWebKB script')
-parser.add_argument('--path', type=str, default='/content/drive/MyDrive/OLDNEURIPSCODE/NewHeterophillyCode/heterophilous-graphs/data/', help='path to directory containing npz file')
+parser.add_argument('--path', type=str, default='Path to npz files', help='path to directory containing npz file')
 parser.add_argument('--dataset', type=str, help='name of npz file')
 parser.add_argument('--out', type=str, help='output file in CSV format')
 parser.add_argument('--max_iters', type=int, default=10, help='maximum number of Braess iterations')
